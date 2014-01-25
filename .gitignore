@@ -8,3 +8,5 @@ info.php
 memcache.php
 .idea
 /nbproject/*
+.elasticbeanstalk/
+.elasticbeanstalk
