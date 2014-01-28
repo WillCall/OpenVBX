@@ -46,10 +46,10 @@ files:
             $active_group = "default";
             $active_record = TRUE;
 
-            $db["default"]["hostname"] = .$_ENV["RDS_HOSTNAME"] . ':' . .$_ENV["RDS_PORT"];
-            $db["default"]["username"] = .$_ENV["RDS_USERNAME"];
-            $db["default"]["password"] = .$_ENV["USER"];
-            $db["default"]["database"] = .$_ENV["RDS_DB_NAME"];
+            $db["default"]["hostname"] = $_ENV["RDS_HOSTNAME"] . ':' . $_ENV["RDS_PORT"];
+            $db["default"]["username"] = $_ENV["RDS_USERNAME"];
+            $db["default"]["password"] = $_ENV["RDS_PASSWORD"];
+            $db["default"]["database"] = $_ENV["RDS_DB_NAME"];
             $db["default"]["dbdriver"] = "mysql";
             $db["default"]["dbprefix"] = "";
             $db["default"]["pconnect"] = TRUE;
